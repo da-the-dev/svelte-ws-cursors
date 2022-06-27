@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "strict": false,
+        "rootDir": "src/back",
+        "outDir": "dist",
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/back/**/*"
+    ],
+    "exclude": [
+        "src/front/**/*",
+        "node_modules/**/*"
+    ]
+}
